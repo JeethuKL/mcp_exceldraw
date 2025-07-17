@@ -379,8 +379,8 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 3000;
-const HOST = process.env.HOST || 'localhost';
+const PORT = process.env.PORT || 10000;
+const HOST = process.env.HOST || 'mcp-exceldraw.onrender.com';
 
 server.listen(PORT, HOST, () => {
   logger.info(`POC server running on http://${HOST}:${PORT}`);
